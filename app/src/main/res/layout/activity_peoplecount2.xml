@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peoplecount">
+
+    <TextView
+        android:id="@+id/congo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/total"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/peoplearealso"/>
+
+    <TextView
+        android:id="@+id/peoplearealso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/people_are_also"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/peoplearealso"/>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity"/>
+
+
+</RelativeLayout>
