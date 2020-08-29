@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     Spinner doinglistspinner;
+    TextView tetxview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,20 +22,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         doinglistspinner = findViewById(R.id.doinglist);
+        tetxview = findViewById(R.id.trial);
         //initilize arraylis
-        ArrayList<String> doinglist = new ArrayList<>();
+        ArrayList<String> doinglistarray = new ArrayList<>();
         //Add elements in arrayList
-        doinglist.add("one");
-        doinglist.add("four");
-        doinglist.add("three");
-        doinglist.add("five");
-        doinglist.add("seve");
-        doinglist.add("ten");
-        doinglist.add("ele");
+        doinglistarray.add("one");
+        doinglistarray.add("four");
+        doinglistarray.add("three");
+        doinglistarray.add("five");
+        doinglistarray.add("seve");
+        doinglistarray.add("ten");
+        doinglistarray.add("ele");
 
         //Set adapter
         doinglistspinner.setAdapter(new ArrayAdapter<>(MainActivity.this,
-                android.R.layout.simple_spinner_dropdown_item));
+                android.R.layout.simple_spinner_dropdown_item,doinglistarray));
 
         doinglistspinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

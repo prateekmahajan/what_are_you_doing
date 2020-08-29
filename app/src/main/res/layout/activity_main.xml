@@ -26,9 +26,16 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_centerInParent="true"
-        android:text="@string/doinglisttext"
         android:background="#009688"
         android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/trial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/doinglist"/>
 
     <TextView
         android:id="@+id/feelingtextview"
@@ -46,6 +53,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/feelingtextview"
         android:layout_marginTop="60dp"/>
+
 
 
 </RelativeLayout>
