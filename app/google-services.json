@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706138680935",
+    "firebase_url": "https://whatareyoudoing-2826b.firebaseio.com",
+    "project_id": "whatareyoudoing-2826b",
+    "storage_bucket": "whatareyoudoing-2826b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706138680935:android:60367668b56bbec1d86ec2",
+        "android_client_info": {
+          "package_name": "com.casual.whatareyoudoing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706138680935-q1437ij3cp84svcjkvt87igob8v3s78g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIxl0noeY37Ma8-se0fNoeAFIPR9fF_bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706138680935-q1437ij3cp84svcjkvt87igob8v3s78g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
